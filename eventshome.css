@@ -1,0 +1,119 @@
+body{
+  background-color: black;
+
+}
+#logo{
+  text-align: center;
+  margin-top: 30px;
+}
+#tnslogo{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: -80px;
+}
+img:hover{
+  opacity: 0.7;
+}
+.etitle{
+  color: #1a1819;
+  font-size: 270pt;
+  text-align: center;
+  height: 0vh;
+}
+.dtb{
+  position: relative;
+  top: -390px;
+  text-align: left;
+  margin-left: 30px;
+  line-height: 20pt;
+  animation-name: animation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+@keyframes animation {
+  0%   {left:0px; top:-390px;}
+  50%  {left:900px; top:-390px;}
+  100% {left:0px; top:-390px;}
+}
+
+a.E2:link{
+  font-size: 100pt;
+  color: #d9098c;
+  text-decoration: none;
+}
+a.E2:visited{
+  text-decoration: none;
+  color: #d9098c;
+}
+a.E2:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.E3{
+  position: relative;
+  top: -400px;
+  color: #0f0e0e;
+}
+.tipsy{
+  position: relative;
+  top: -600px;
+  padding-right: 50px;
+  text-align: right;
+  line-height: 20pt;
+  animation-name: animation2;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+@keyframes animation2 {
+  0%   {right:0px; top:-600px;}
+  50%  {right:800px; top:-600px;}
+  100% {right:0px; top:-600px;}
+}
+a.E4:link{
+  font-size: 130pt;
+  color: #6340ff;
+  text-decoration: none;
+}
+a.E4:visited{
+  text-decoration: none;
+  color: #6340ff;
+}
+a.E4:hover{
+  color: white;
+  text-decoration: none;
+}
+.E5{
+  position: relative;
+  top: -585px;
+  color: #080707;
+}
+.dancemob{
+  margin-left: 50px;
+  position: relative;
+  top: -935px;
+  left: -20px;
+  text-align: left;
+  line-height: 20pt;
+  animation-name: animation3;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  }
+@keyframes animation3 {
+  0%   {left:0px; top:-935px;}
+  50%  {left:0px; top:-1600px;}
+  100% {left:0px; top:-935px;}
+  }
+a.E6:link{
+  font-size: 100pt;
+  color: #e3fa39;
+  text-decoration: none;
+}
+a.E6:visited{
+  text-decoration: none;
+  color: #e3fa39;
+}
+a.E6:hover{
+  color: white;
+  text-decoration: none;
+}

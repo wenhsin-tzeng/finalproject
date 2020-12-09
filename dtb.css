@@ -1,0 +1,75 @@
+body{
+  background-color: black;
+  color: white;
+  width: 99vw;
+  height: 99vh;
+}
+#logo{
+  text-align: center;
+  margin-top: 30px;
+}
+#tnslogo{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: -80px;
+}
+img:hover{
+  opacity: 0.7;
+}
+.box1{
+  margin-top: 300px;
+  margin-left: 80px;
+}
+.previouspage{
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20pt;
+  text-decoration: none;
+  color: white;
+}
+a.previouspage:active{
+  font-size: 20pt;
+  text-decoration: none;
+}
+a.previouspage:hover{
+  font-size: 20pt;
+  text-decoration: none;
+  color: #d9098c;
+}
+.box2{
+  position: relative;
+  height: 570px;
+  width: 1050px;
+  top: -340px;
+  left: 300px;
+  background-image: url(dtb1.png);
+  background-size: cover;
+}
+.textbox{
+  font-family: 'Bebas Neue', cursive;
+  position: relative;
+  width: 1050px;
+  height: 580px;
+  left: 300px;
+  font-size: 50pt;
+  top: -520px;
+  color: #d9098c;
+}
+.bodytext{
+  position: relative;
+  top: -30px;
+  font-size: 20pt;
+  font-family: serif;
+  color: white;
+}
+.ii{
+    font-size: 14pt;
+    color: grey;
+    font-family: serif;
+  }
+.subtitle{
+      font-family: 'Bebas Neue', cursive;
+      word-spacing: 2px;
+      font-size: 20pt;
+      color: #d9098c;
+    }
